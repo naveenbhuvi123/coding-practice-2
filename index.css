@@ -1,0 +1,57 @@
+.bg-container {
+  background-image: url("https://assets.ccbp.in/frontend/react-js/congrats-card-bg.png");
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-heading {
+  color: #0f172a;
+  font-family: roboto;
+  font-size: 28px;
+  font-weight: normal;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #cffafe;
+  width: 65vw;
+  height: 80vh;
+  font-family: roboto;
+  padding: 20px;
+}
+.paragraph {
+  font-size: 18px;
+  text-align: center;
+}
+.profile-image {
+  height: 100px;
+  width: 100px;
+}
+.gift-image {
+  height: 110px;
+  width: 110px;
+}
+.heading {
+  font-weight: normal;
+  font-size: 20px;
+}
+@media (max-width: 576px) {
+  .card-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #cffafe;
+    background-size: cover;
+    height: 70vh;
+    font-family: roboto;
+    padding: 20px;
+  }
+}
